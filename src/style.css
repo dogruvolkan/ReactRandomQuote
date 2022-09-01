@@ -1,0 +1,63 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.quote{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;  
+}
+
+.quote-container{
+  width: 50%;
+  text-align: center;
+  border:1px solid #1a1a1a;
+  padding:50px;
+  border:1px solid #ddd;
+  border-radius: 10px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.4);
+}
+
+.quote-text{
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.quote-author{
+  margin-bottom: 15px;
+}
+
+button{
+  padding:10px 30px;
+  border:0;
+  border-radius: 5px;
+  background-color: tomato;
+  color:#fff;
+  font-size:16px;
+  cursor: pointer;
+}
+
+.line{
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+@media (max-width : 768px){
+  .quote-container {
+    width: 70%;
+    
+}
+}
+
+@media (max-width : 414px){
+  .quote-container {
+    width: 90%;
+    padding: 25px;
+}
+}
