@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ReactRandomQuote/static/css/main.cbed13ec.css",
+    "main.js": "/ReactRandomQuote/static/js/main.0953a036.js",
+    "index.html": "/ReactRandomQuote/index.html",
+    "main.cbed13ec.css.map": "/ReactRandomQuote/static/css/main.cbed13ec.css.map",
+    "main.0953a036.js.map": "/ReactRandomQuote/static/js/main.0953a036.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cbed13ec.css",
+    "static/js/main.0953a036.js"
+  ]
+}
